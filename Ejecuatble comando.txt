@@ -1,0 +1,13 @@
+abre cmd y corre el siguiente comando
+pip3 install pyinstaller
+enter
+
+despues ingresa a la url donde esta el archivo a combertir en ejecutable y corra el siguiente comando
+
+pyinstaller --windowed calculadoraejemplo_interfaz.py
+enter
+
+nota: con este comando obtenemos el ejecutable pero con muchos archivo adicionales para obtener un solo archivo elimine la carpeta dist y ejecute este nuevo comando
+
+pyinstaller --windowed --onefile calculadoraejemplo_interfaz.py
+enter
